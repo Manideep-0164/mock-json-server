@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("../../../../AppData/Local/Temp/db.json");
+const router = jsonServer.router("Temp/db.json");
 const cors = require("cors");
 const middlewares = jsonServer.defaults();
 
