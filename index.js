@@ -30,7 +30,8 @@ server.post("/login", (req, res) => {
 
         res.status(200).json({
             message: "Login Success",
-            Username: post.Username
+            Username: post.Username,
+            role:post.role
         });
 
     } catch (error) {
