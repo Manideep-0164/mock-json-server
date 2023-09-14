@@ -19,5 +19,14 @@
       "fee": 150,
       "id": 1
     }
+  ],
+  "dogs":[
+    {
+      "id": 1,
+      "name": "dummy",
+      "place": "vkp",
+      "gender": "Male",
+      "age":1
+    }
   ]
 }
